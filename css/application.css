@@ -1,0 +1,226 @@
+/*********** GLOBAL IMPORTS ***********/
+/*********** BASE IMPORTS ***********/
+/*********** DESCRIPTIVE COLOR VARIABLES ***********/
+/*********** FUNCTIONAL COLOR VARIABLES ***********/
+/*********** FONT VARIABLES ***********/
+/*********** BREAK POINT VARIABLES ***********/
+/*********** CAPITALIZE ***********/
+.footer-nav a, .main-nav ul, #contact h2, #portfolio h2, #skills h2 {
+  text-transform: uppercase; }
+
+#home:after, #portfolio:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*********** BASE STYLES ***********/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style: none; }
+
+/*********** LAYOUT IMPORTS ***********/
+.content-wrapper {
+  width: 100%;
+  padding: 0 5%; }
+
+.portfolio-wrapper {
+  margin-bottom: 3em; }
+
+.skills-wrapper {
+  margin-bottom: 5em;
+  background-color: #d3d3d3;
+  padding: 1em; }
+
+.contact-wrapper {
+  margin-bottom: 3em; }
+  @media (min-width: 768px) {
+    .contact-wrapper {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto; } }
+  @media (min-width: 1024px) {
+    .contact-wrapper {
+      width: 40%; } }
+  @media (min-width: 768px) {
+    .contact-wrapper .section-heading {
+      margin-bottom: 1em; } }
+
+/*********** FOOTER ***********/
+footer {
+  border-top: solid 1px #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  footer p {
+    text-align: left;
+    padding-left: .5em;
+    color: initial;
+    font-weight: bold; }
+  @media (min-width: 768px) {
+    footer {
+      border-top: none; } }
+
+@media (min-width: 768px) {
+  .return-home {
+    display: none; } }
+
+.footer-nav {
+  text-align: right;
+  padding-right: .5em;
+  font-size: 0.7em;
+  font-weight: bold; }
+  .footer-nav nav {
+    display: none; }
+    @media (min-width: 768px) {
+      .footer-nav nav {
+        display: inline-block; } }
+    @media (min-width: 768px) {
+      .footer-nav nav a {
+        display: inline-block;
+        padding: 1em; } }
+  @media (min-width: 768px) {
+    .footer-nav li {
+      display: inline;
+      margin-left: .5em; } }
+
+.footer-nav,
+footer p {
+  display: inline-block;
+  width: 50%;
+  margin-left: -4px; }
+
+/*********** HEADER ***********/
+.main-header {
+  margin-bottom: 4em;
+  padding: 1em;
+  background-color: #d3d3d3; }
+  .main-header h1 {
+    font-size: 2em; }
+    @media (min-width: 1024px) {
+      .main-header h1 {
+        float: left; } }
+  @media (min-width: 768px) {
+    .main-header {
+      margin-bottom: 3em; } }
+
+.head-shot {
+  width: 80%;
+  margin-bottom: 1em; }
+  @media (min-width: 768px) {
+    .head-shot {
+      width: 40%;
+      float: right;
+      margin-left: 1em; } }
+
+@media (min-width: 768px) {
+  .intro {
+    font-size: 1em;
+    width: 40%;
+    max-width: 400px;
+    padding-top: 2em;
+    margin-left: 4em; } }
+@media (min-width: 1024px) {
+  .intro {
+    margin-left: 8em; } }
+
+@media (min-width: 1024px) {
+  .header-content {
+    clear: both; } }
+
+/*********** COMPONENT IMPORTS ***********/
+/*********** NAVIGATION ***********/
+.main-nav {
+  margin: 1.5em 0 2em 0; }
+  .main-nav li {
+    margin: .4em; }
+    @media (min-width: 768px) {
+      .main-nav li {
+        display: inline; } }
+  .main-nav a {
+    font-weight: bold;
+    display: inline-block;
+    padding: .6em 1em; }
+  @media (min-width: 768px) {
+    .main-nav {
+      margin-top: .5em; } }
+  @media (min-width: 1024px) {
+    .main-nav {
+      float: right; } }
+
+.nav-open {
+  cursor: pointer; }
+
+body {
+  font-family: "Muli", sans-serif;
+  text-align: center;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+  a:active, a:hover {
+    color: #999; }
+
+p,
+a,
+li {
+  font-size: 0.8rem; }
+
+p,
+li {
+  color: #888; }
+
+.section-heading {
+  font-family: "Aref Ruqaa", serif;
+  letter-spacing: 2px;
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 2em; }
+  @media (min-width: 768px) {
+    .section-heading {
+      font-size: 1.5em; } }
+
+/*********** SECTION IMPORTS ***********/
+/*********** CONTACT ***********/
+#contact p {
+  margin-bottom: 2em; }
+#contact a {
+  padding-left: 15px;
+  font-weight: bold; }
+
+/*********** PORTFOLIO ***********/
+.portfolio-image {
+  width: 100%;
+  margin-bottom: .5em; }
+
+.portfolio-subheading {
+  font-size: 0.9em;
+  margin-bottom: .9em; }
+  @media (min-width: 768px) {
+    .portfolio-subheading {
+      font-size: 1.1em;
+      margin-bottom: .3em; } }
+
+.portfolio-entry {
+  margin-bottom: 2.5em; }
+  @media (min-width: 768px) {
+    .portfolio-entry {
+      float: left;
+      width: 50%;
+      padding-left: .8em; } }
+  @media (min-width: 1024px) {
+    .portfolio-entry {
+      width: 33.3%; } }
+  @media (min-width: 768px) {
+    .portfolio-entry p {
+      width: 80%;
+      margin: 0 auto;
+      min-height: 60px; } }
+
+.portfolio-entry:last-child {
+  margin-bottom: 1em; }
+
+/*# sourceMappingURL=application.css.map */

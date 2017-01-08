@@ -1,0 +1,18 @@
+/*********** CONTACT ***********/
+
+#contact { 
+	
+	& h2 {
+		@extend %capitalize;
+	}
+
+	& p {
+		margin-bottom: 2em;
+	}	
+
+	& a {
+		padding-left: 15px;
+		font-weight: $font-weight-emphasis;
+	}
+
+}

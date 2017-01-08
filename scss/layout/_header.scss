@@ -1,0 +1,57 @@
+/*********** HEADER ***********/
+
+.main-header {
+	margin-bottom: 4em;
+	padding: 1em;
+	background-color: $color-background;
+
+	& h1 {
+		font-size: $font-size-main-heading;
+
+		@media #{$brk-wide} {
+			float: left;
+		}
+	}
+
+	@media #{$brk-medium} {
+		margin-bottom: 3em;
+	}
+}
+
+.head-shot {
+	width: 80%;
+	margin-bottom: 1em;
+
+	@media #{$brk-medium} {
+		width: 40%;
+		float: right;
+		margin-left: 1em;
+	}
+}
+
+#home {
+	@extend %clearfix;
+}
+
+.intro {
+
+	@media #{$brk-medium} {
+		font-size: $font-size-subheadings;
+		width: 40%;
+		max-width: 400px;
+		padding-top: 2em;
+		margin-left: 4em;
+	}
+
+	@media #{$brk-wide} {
+		margin-left: 8em;
+	}
+}
+
+.header-content {
+
+	@media #{$brk-wide} {
+		clear: both;
+	}
+
+}

@@ -1,0 +1,35 @@
+.content-wrapper {
+	width: 100%;
+	padding: 0 5%;
+}
+
+.portfolio-wrapper {
+	margin-bottom: 3em;
+}
+
+.skills-wrapper {
+	margin-bottom: 5em;
+	background-color: $color-background;
+	padding: 1em;
+}
+
+.contact-wrapper {
+	margin-bottom: 3em;
+
+	@media #{$brk-medium} {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	@media #{$brk-wide} {
+		width: 40%;
+	}
+
+	& .section-heading {
+
+		@media #{$brk-medium} {
+			margin-bottom: 1em;
+		}
+	}
+}

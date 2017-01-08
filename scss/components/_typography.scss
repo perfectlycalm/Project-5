@@ -1,0 +1,38 @@
+body {
+	font-family: $font-family-primary;
+	text-align: center;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: $color-links;
+
+	&:active,
+	&:hover {
+		color: $color-links-hover;
+	}
+}
+
+p,
+a,
+li {
+	font-size: $font-size-primary;
+}
+
+p,
+li {
+	color: $color-primary-text;
+}
+
+.section-heading {
+	font-family: $font-family-subheadings;
+	letter-spacing: 2px;
+	font-size: $font-size-subheadings;
+	font-weight: $font-weight-emphasis;
+	margin-bottom: 2em;
+
+	@media #{$brk-medium} {
+		font-size: 1.5em;
+	}
+}

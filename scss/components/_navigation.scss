@@ -1,0 +1,37 @@
+
+/*********** NAVIGATION ***********/
+
+.main-nav {
+	margin: 1.5em 0 2em 0;
+
+	& ul {
+		@extend %capitalize;
+	}
+
+	& li {
+		margin: .4em;
+
+		@media #{$brk-medium} {
+			display: inline;
+		}
+	}
+
+	& a {
+		font-weight: $font-weight-emphasis;
+		display: inline-block;
+		padding: .6em 1em;
+	}
+
+	@media #{$brk-medium} {
+		margin-top: .5em;
+	}
+
+	@media #{$brk-wide} {
+		float: right;
+	}
+}
+
+.nav-open {
+	cursor: pointer;
+}
+

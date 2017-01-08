@@ -1,0 +1,13 @@
+/*********** CAPITALIZE ***********/
+
+%capitalize {
+	text-transform: uppercase;
+}
+
+%clearfix {
+	&:after {
+	content:"";
+	display: table;
+	clear: both;
+	}
+}

@@ -1,0 +1,35 @@
+
+/*********** DESCRIPTIVE COLOR VARIABLES ***********/
+$black					: #000;
+$dusty-gray				: #999;
+$gray 					: #888;
+$alto                   : #d3d3d3;
+$silver					: #ccc;
+
+
+/*********** FUNCTIONAL COLOR VARIABLES ***********/
+$color-links			: $black;
+$color-links-hover		: $dusty-gray;
+$color-primary-text		: $gray;
+$color-background		: $alto;
+$color-border			: $silver;
+
+
+/*********** FONT VARIABLES ***********/
+$font-size-primary			: .8rem;
+$font-size-subheadings		: 1em;
+$font-size-main-heading		: 2em;
+$font-size-footer-nav		: .7em;
+$font-size-portfolio		: .9em;
+$font-size-portfolio-wide	: 1.1em;
+
+$font-family-primary		: "Muli", sans-serif;
+$font-family-subheadings	: 'Aref Ruqaa', serif;
+
+$font-weight-emphasis		: bold;
+
+
+/*********** BREAK POINT VARIABLES ***********/
+
+$brk-medium				: '(min-width: 768px)';
+$brk-wide				: '(min-width: 1024px)';
